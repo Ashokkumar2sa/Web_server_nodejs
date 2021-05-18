@@ -5,7 +5,10 @@ The dummy data is maintained in a json file named coin_Data.json.
 The range of roll number is 100 to 108 so in request use roll number value to be btw 100 to 1-8.
 Also the output wold be in json format.
 
-//------------------------------------------------------------------------------------------------------------ //
+Run the server.js in terminal and request data fron another terminal window...
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
 The folder express_use have the server made using express js . Its the additional part and is not in task
 And when a user makes a request to our server we provide the data to him as number of coin he has .
 
