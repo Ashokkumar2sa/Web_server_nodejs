@@ -1,9 +1,11 @@
 # Web_server_nodejs
 
-A basic web server made using Node-JS .
+A basic web server made using Node-JS  and Express.
 The dummy data is maintained in a json file named coin_Data.json.
 The range of roll number is 100 to 108 so in request use roll number value to be btw 100 to 1-8.
 Also the output wold be in json format.
+
+Install express, body-parser. We need fs and body-parser to acquire data from a json file.
 
 Run the server.js in terminal and request data fron another terminal window...
 for this request:::
