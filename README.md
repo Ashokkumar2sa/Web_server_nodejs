@@ -6,6 +6,14 @@ The range of roll number is 100 to 108 so in request use roll number value to be
 Also the output wold be in json format.
 
 Run the server.js in terminal and request data fron another terminal window...
+for this request:::
+
+curl --header "Content-Type: application/json" --request POST  --data '{"rollno":"180199"}'   http://localhost:8080/coins
+
+Output : 
+{
+  "coins": 19
+}
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
